@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header><h1>My adventures in life with friends</header>
+    <section class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="Intramuros.jpg" style="width:100%">
+          <div class="text">Intramuros</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="Southland.jpg" style="width:100%">
+          <div class="text">SM South Mall</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="Festival.jpg" style="width:100%">
+          <div class="text">Festival Mall</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+    </section>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <hr>
+    <section id="link-pages">
+        <h1><button><a href="Intramuros.html">INTRAMUROS    </a></button> <button><a href="Southmall.html">SM SOUTH MALL    </a></button> <button><a href="Festival.html">FESTIVAL MALL</a></button></h1>
+    </section>
+
+    <section id="introduction">
+        <h2>My adventures with my friends that have remained in my memories.</h2>
+    </section>
+    <hr>
+    
+
+    <section id="Info">
+        <h2>Personal Information</h2>
+        <p>Name: David Dwaight R. Tayco
+            <br>Student No.: 2022380008
+        </p>
+        <p>Course: BSCS
+            <br>Social: https://www.facebook.com/david.tayco.3/
+        </p>
+        <!-- Add more personal information as needed -->
+    </section>
+    
+    <!-- Map -->
+    <div id="map">
+        <!-- Add map here -->
+        <!-- You can use Google Maps API or other map services -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
